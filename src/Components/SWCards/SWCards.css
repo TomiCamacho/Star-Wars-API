@@ -11,3 +11,13 @@
     outline: none;
     /* border: 'none' */
 }
+
+.mybutton{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #FFF428;
+    padding: 6px 13px;
+    margin: 6px 4px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
