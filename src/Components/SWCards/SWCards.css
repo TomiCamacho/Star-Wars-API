@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'StarJediHollow-A4lL';
+    src: url('../../assets/fonts/StarJediHollow-A4lL.ttf') format('truetype');
+}
+
+.star-wars-font {
+    font-family: 'StarJediHollow-A4lL', sans-serif;
+}
+
+.input-no-outline:focus {
+    outline: none;
+    /* border: 'none' */
+}
