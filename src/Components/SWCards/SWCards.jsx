@@ -60,7 +60,9 @@ const SWCards = () => {
           </div>
 
             <div>
-              <Buscador/>
+              <Buscador setPersonajes={setPersonajes} personajes={personajes}
+                        peoplepage={peoplepage} setPeoplepage={setPeoplepage}
+                        />
             </div>
 
 
@@ -75,7 +77,7 @@ const SWCards = () => {
                 <div className='d-flex flex-wrap' style={{
                   width:'90vw'
                 }}>{personajes.map(personaje=>
-                  <Mycard name={personaje.name}/>
+                  <Mycard name={personaje.name} gender={personaje.gender}/>
                 )}
                 </div>
             </div>
